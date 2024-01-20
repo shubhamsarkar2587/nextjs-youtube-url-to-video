@@ -12,7 +12,7 @@ const DownloadBtn = () => {
 
   const validateYoutubeUrl = (url: string) => {
     // Regular expression for a YouTube video URL
-    const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+    const youtubeRegex = /.*youtube\.com.*/i;
 
     return youtubeRegex.test(url);
   };
