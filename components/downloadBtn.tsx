@@ -46,7 +46,7 @@ const DownloadBtn = () => {
   
         const blob = new Blob([response.data], { type: "video/mp4" });
         const videoUrl = URL.createObjectURL(blob);
-        downloadVideo(videoUrl)
+        // downloadVideo(videoUrl)
   
         setVideoUrl(videoUrl);
         setIsLoading(false);
