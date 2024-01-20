@@ -12,7 +12,7 @@ const DownloadBtn = () => {
 
   const validateYoutubeUrl = (url: string) => {
     // Regular expression for a YouTube video URL
-    const youtubeRegex = /.*youtube\.com.*/i;
+    const youtubeRegex = /.*you*/i;
 
     return youtubeRegex.test(url);
   };
