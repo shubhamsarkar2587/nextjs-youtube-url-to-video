@@ -7,6 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "You2 downloader",
   description: "Youtube video downloader",
+  openGraph: {
+    type: "website",
+    title: "Youtube Video downloader",
+    description: "YouTube Video Downloader Paste YouTube URL to download videos for free",
+    siteName: "You2 down",
+    images: [
+      {
+        url: "/ogPreview.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
