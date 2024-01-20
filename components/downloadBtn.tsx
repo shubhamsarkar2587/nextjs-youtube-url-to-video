@@ -68,7 +68,7 @@ const DownloadBtn = () => {
         />
         <div className="flex justify-center">
           <button
-            className={`my-4 md:my-0 px-5 py-3 flex bg-black rounded-sm shadow-[rgba(250,250,255,0.16)_0px_-5px_6px_0px_inset,_rgba(38,_37,37,0.24)_4px_6px_11px_1px_inset;] ${
+            className={`my-5 md:my-0 px-5 py-3 flex bg-black rounded-sm shadow-[rgba(250,250,255,0.16)_0px_-5px_6px_0px_inset,_rgba(38,_37,37,0.24)_4px_6px_11px_1px_inset;] ${
               isLoading ? "opacity-50" : ""
             }`}
             onClick={() => handleClick()}
